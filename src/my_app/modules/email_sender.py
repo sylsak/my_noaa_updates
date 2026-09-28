@@ -1,6 +1,6 @@
 import smtplib
 from email.message import EmailMessage
-import utils.utils as utils
+from src.my_app.utils import utils as utils
 
 config = utils.get_config_yaml()
 
